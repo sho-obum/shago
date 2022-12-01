@@ -1,0 +1,21 @@
+footer {
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.choco {
+  background: #fff;
+  color: var(--small-text-color);
+  font-weight: 500;
+}
+.choco a {
+  background: #fff;
+  color: var(--small-text-color);
+  font-weight: 500;
+  cursor: pointer;
+}
+.choco a:hover {
+  border-bottom: 1px solid var(--small-text-color);
+}
+.choco__w {
+  color: #000000;
+}

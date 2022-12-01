@@ -1,0 +1,47 @@
+.service__item {
+  padding: 25px;
+  background: var(--card-bg-01);
+  display: flex;
+  column-gap: 0.5rem;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+.service__item h3 {
+  font-size: 1.4rem;
+}
+.service__item p {
+  font-size: 0.9rem;
+  padding-top: 5px;
+}
+.service__icon {
+  font-size: 2.2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .service__item span i {
+    font-size: 1.8rem;
+    padding: 5px;
+  }
+  .service__item h3 {
+    font-size: 1rem;
+  }
+  .service__item {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .service__item {
+    margin-bottom: 1.5rem;
+  }
+  .service__item span i {
+    font-size: 1.5px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .service__item {
+    padding: 20px;
+  }
+}

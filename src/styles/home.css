@@ -1,0 +1,81 @@
+.hero__section {
+  background: transparent;
+}
+.hero__content h1 {
+  color: var(--primary-color);
+  /* font-style: 3.7rem; */
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.hero__content p {
+  color: var(--primary-color);
+  line-height: 28px;
+}
+.hero__content p:nth-child(1) {
+  font-weight: 500;
+}
+.buy__btn {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: var(--theme-color);
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 40px;
+  font-weight: 500;
+}
+.clock-theme {
+  background: var(--clock-color);
+}
+.buy__btn a {
+  color: #fff;
+}
+.hero__content {
+  padding: 45px;
+}
+.timer__count {
+  /* background: var(--primary-color); */
+  height: 300px;
+}
+.timer__count img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__content p {
+    font-size: 0.9rem;
+  }
+  .buy__btn {
+    font-size: 0.9rem;
+  }
+  .counter__img {
+    display: none;
+  }
+  .clock__top-content {
+    text-align: center;
+  }
+  .clock__data,
+  .clock__wrapper {
+    gap: 8px !important;
+  }
+  .clock__data h1 {
+    font-size: 1rem !important;
+  }
+  .clock__data h5 {
+    font-size: 1rem !important;
+  }
+  .hero__content{
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content {
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+}
